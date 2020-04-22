@@ -5,7 +5,6 @@ const getSeries = async (dispatch, setShowSeries) => {
   let response = await axios.get(
     "https://cors-anywhere.herokuapp.com/https://content.viaplay.se/pc-se/serier/samtliga"
   )
-  debugger
   dispatch({
     type: GET_SERIES,
     payload: {
