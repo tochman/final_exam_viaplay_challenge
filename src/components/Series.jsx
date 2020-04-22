@@ -6,7 +6,6 @@ const Series = () => {
 
   let seriesDisplay
   if (series !== []) {
-    debugger
     seriesDisplay = series.map((serie) => {
       return (
         <div class="display-show">

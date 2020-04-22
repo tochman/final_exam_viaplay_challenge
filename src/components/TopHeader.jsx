@@ -1,15 +1,16 @@
 import React from 'react'
-import Header from "grommet"
+import {Header} from "grommet"
 
-const Header = () => {
+const TopHeader = () => {
   return (
-    <Header>
+    <div class="header">
       <img
+        class="header-logo"
         src="https://kundservice.viaplay.se/wp-content/themes/viaplaycs/assets/dist/images/viaplay_white.svg"
         alt="Viaplay-logo"
       />
-    </Header>
+    </div>
   )
 }
 
-export default Header
+export default TopHeader

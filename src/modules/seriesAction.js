@@ -1,10 +1,11 @@
 import axios from "axios"
 import {GET_SERIES} from "../state/actions/actionTypes"
 
-const getSeries = async (dispatch) => {
+const getSeries = async (dispatch, setShowSeries) => {
   let response = await axios.get(
     "https://cors-anywhere.herokuapp.com/https://content.viaplay.se/pc-se/serier/samtliga"
   )
+  debugger
   dispatch({
     type: GET_SERIES,
     payload: {
@@ -14,7 +15,7 @@ const getSeries = async (dispatch) => {
         ],
     },
   })
-
+  setShowSeries(true)
 }
 
 export { getSeries }
