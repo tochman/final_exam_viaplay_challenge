@@ -9,12 +9,16 @@ const Series = () => {
     seriesDisplay = series.map((serie) => {
       return (
         <div class="display-show">
-          <img src={serie.content.images.boxart.url} alt="boxart" />
+          <img
+            class={`series-image-${serie.publicPath}`}
+            src={serie.content.images.boxart.url}
+            alt="boxart"
+          />
         </div>
       )
     })
   }
-  
+
   return <div>{seriesDisplay}</div>
 }
 

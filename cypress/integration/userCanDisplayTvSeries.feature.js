@@ -1,7 +1,12 @@
-describe('TV series listed', () => {
-  
+describe("TV series listed", () => {
+  before(() => {
+    cy.server()
+    cy.visit("/")
+  })
 
-  it('are successfully displayed for the user', () => {
-    
-  });
+  it("are successfully displayed for the user", () => {
+    cy.get(".display-show").within(() => {
+      cy.get(".series-image-greys-anatomy").should("exist")
+    })
+  })
 })
