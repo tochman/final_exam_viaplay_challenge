@@ -9,17 +9,15 @@ const Series = () => {
     debugger
     seriesDisplay = series.map((serie) => {
       return (
-        <div>
-          <h4>{serie.publicPath}</h4>
+        <div class="display-show">
+          <img src={serie.content.images.boxart.url} alt="boxart" />
         </div>
       )
     })
-  } else {
-    seriesDisplay = <p>wtf</p>
-  }
+  } 
+
   return <div>
     {seriesDisplay}
-    <h3>Hello</h3>
   </div>
 }
 
