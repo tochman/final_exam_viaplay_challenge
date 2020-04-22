@@ -1,5 +1,5 @@
 const initialState = {
-  show: true,
+  showSeries: false,
 }
 
 export default initialState

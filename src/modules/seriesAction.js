@@ -6,15 +6,14 @@ const getSeries = async (dispatch) => {
     "https://cors-anywhere.herokuapp.com/https://content.viaplay.se/pc-se/serier/samtliga"
   )
   dispatch({
-    type: GET_SERIES, payload: {
+    type: GET_SERIES,
+    payload: {
       series:
         response.data._embedded["viaplay:blocks"][0]._embedded[
-        "viaplay:products"
-        ]
-    }
+          "viaplay:products"
+        ],
+    },
   })
-  debugger
-  // lol
 
 }
 

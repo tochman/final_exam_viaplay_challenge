@@ -8,6 +8,11 @@ const rootReducer = (state = initialState, action) => {
         ...state,
         ...action.payload
       }
+    case actionTypes:
+      return {
+        ...state,
+        ...action.payload
+      }
     default:
       return state
   }
