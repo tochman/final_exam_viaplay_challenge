@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import {getSeries} from 
 
-function App() {
+
+const App = () => {
+
+  useEffect(() => {
+    getSeries()
+  }, [])
+
   return (
     <div className="App">
       <h1>Zup wörld!</h1>
