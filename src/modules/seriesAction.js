@@ -1,5 +1,5 @@
 import axios from "axios"
-import {GET_SERIES} from "../state/actions/actionTypes"
+import { GET_SERIES } from "../state/actions/actionTypes"
 
 const getSeries = async (dispatch, setShowSeries) => {
   let response = await axios.get(

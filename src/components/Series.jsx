@@ -13,11 +13,9 @@ const Series = () => {
         </div>
       )
     })
-  } 
-
-  return <div>
-    {seriesDisplay}
-  </div>
+  }
+  
+  return <div>{seriesDisplay}</div>
 }
 
 export default Series

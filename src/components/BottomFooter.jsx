@@ -1,5 +1,4 @@
-import React from 'react'
-import {Footer} from "grommet"
+import React from "react"
 
 const BottomFooter = () => {
   return (

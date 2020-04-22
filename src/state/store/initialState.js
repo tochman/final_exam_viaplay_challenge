@@ -1,5 +1,3 @@
-const initialState = {
-  showSeries: false,
-}
+const initialState = {}
 
 export default initialState
