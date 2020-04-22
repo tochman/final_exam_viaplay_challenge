@@ -4,7 +4,7 @@ You are challenged with the task of replicating a UI. It is a desktop-only web a
 
 The presented UI looks like this:
 
-![](./viaplay_challenge_ui.png)
+![](https://github.com/CraftAcademyLabs/coach-guides/raw/master/miscellaneous/assessments/viaplay_challenge_ui.png)
 
 
 You need to fetch the data from the Viaplay API and find the appropriate attributes that hold the information you need. 
