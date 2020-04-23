@@ -1,13 +1,13 @@
 # Viaplay Challenge - Final Exam
 
-You are challenged with the task of replicating a UI. It is a desktop-only web application listing TV series from Viaplay.
+You are challenged with the task of replicating a UI. It is a desktop-only web application listing TV series from Viaplay. 
 
 The presented UI looks like this:
 
 ![](https://github.com/CraftAcademyLabs/coach-guides/raw/master/miscellaneous/assessments/viaplay_challenge_ui.png)
 
 
-You need to fetch the data from the Viaplay API and find the appropriate attributes that hold the information you need.
+You need to fetch the data from the Viaplay API and find the appropriate attributes that hold the information you need. 
 
 The API is located at:
 
@@ -15,12 +15,12 @@ The API is located at:
 https://content.viaplay.se/pc-se/serier/samtliga
 ```
 
-The TV series listings can be found at:
+The TV series listings can be found at: 
 ```js
 yourDataObject._embedded['viaplay:blocks'][0]._embedded['viaplay:products']
 ```
 
-You can find a logo with a transparent background at:
+You can find a logo with a transparent background at: 
 ```
 https://kundservice.viaplay.se/wp-content/themes/viaplaycs/assets/dist/images/viaplay_white.svg
 ```
@@ -46,4 +46,4 @@ Displaying the shows in a row with the right formatting is a bit challenging. To
 }
 ```
 
-Good luck and Happy Coding.
+Good luck and Happy Coding. 
